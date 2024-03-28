@@ -1,4 +1,4 @@
-function convertTemperature() {
+function convertTemperature(event) {
   event.preventDefault();
   let temperature = parseFloat(document.getElementById("temperature").value);
   let unit = document.getElementById("unit").value;
